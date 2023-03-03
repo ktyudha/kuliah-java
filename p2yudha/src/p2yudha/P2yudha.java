@@ -4,6 +4,8 @@
  */
 package p2yudha;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author ktyudha
@@ -13,8 +15,16 @@ public class P2yudha {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    public static void main(String args[]){
+    int tabungan = 5000;
+    int ambil, saldo;
+    System.out.println("saldo awal:"+ tabungan);
+    String amb = JOptionPane.showInputDialog("masukkan jumlah pengambilan: ");
+    ambil=Integer.parseInt(amb);
+    System.out.println("Jumlah pengambilan:"+ ambil);
+    saldo=tabungan-ambil;
     
+    System.out.println("saldo sekarang: "+saldo);
+    
+}
 }

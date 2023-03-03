@@ -5,10 +5,7 @@
 package p1yudha;
 
 import java.io.*;
-/**
- *
- * @author ktyudha
- */
+
 public class P1yudha {
 
     /**
