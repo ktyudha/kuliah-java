@@ -3,15 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package perc2p3yudha;
-
-/**
- *
- * @author ktyudha
- */
-
-
 import javax.swing.JOptionPane;
-
 class fibonacci {
     public int i, j, k, hasil;
     public void lambda (int b) {
@@ -30,19 +22,13 @@ class fibonacci {
                   System.out.print(hasil+ "\t");
             }
               System.out.print("\n");
-        }
-
-        
+        } 
     }
 }
 
 public class Perc2p3yudha {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
         int batas;
         String nbatas = JOptionPane.showInputDialog("Batas Perkalian : ");
         batas = Integer.parseInt(nbatas);

@@ -4,11 +4,6 @@
  */
 package perc2.p2yudha;
 
-/**
- *
- * @author ktyudha
- */
-
 import javax.swing.JOptionPane;
 
 class deret {
@@ -43,5 +38,4 @@ public class Perc2P2yudha {
         deret deretkan = new deret();
         deretkan.jumlahkan(awal,batas);
     }
-    
 }
