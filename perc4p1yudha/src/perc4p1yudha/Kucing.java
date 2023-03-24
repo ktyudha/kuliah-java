@@ -5,10 +5,7 @@
 package perc4p1yudha;
 
 import java.io.*;
-/**
- *
- * @author ktyudha
- */
+
 
 public class Kucing {
     public int a = 5;
@@ -30,9 +27,6 @@ class Jinak extends Kucing {
 }
 
 class Turunan {
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         

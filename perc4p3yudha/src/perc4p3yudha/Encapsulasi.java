@@ -4,10 +4,7 @@
  */
 package perc4p3yudha;
 import java.io.*;
-/**
- *
- * @author ktyudha
- */
+
 
 public class Encapsulasi {
     private String name;
@@ -36,17 +33,14 @@ public class Encapsulasi {
 }
 class LatEncapsulasi {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
+
         Encapsulasi encap = new Encapsulasi();
         encap.setName("Kurniawan Try Yudha");
         encap.setAge(20);
         encap.setIdNum("2222500003");
-        System.out.println("Nama : " + encap.getName() + ", Umur : " + encap.getAge() + ", ID : " + encap.getIdNum());
+        System.out.println("Nama : " + encap.getName() +
+           ", Umur : " + encap.getAge() + ", ID : " + encap.getIdNum());
     }
     
 }
