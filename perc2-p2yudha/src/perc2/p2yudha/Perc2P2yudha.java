@@ -13,7 +13,7 @@ class deret {
         bts = d;
         a[1] = aw;
         System.out.print(a[1]+" ");
-        for (i = 2; i <= 20; i++) {
+        for (i = 2; i <= bts; i++) {
             a[i]= a[i-2]+a[i-1];
             
             if (a[i]<=bts) {

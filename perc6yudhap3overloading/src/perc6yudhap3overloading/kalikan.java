@@ -24,8 +24,8 @@ public class kalikan {
     public static void main(String[] args) {
         kalikan kl = new kalikan();
         System.out.println(kl.kali(2, 3));
-        System.out.println(kl.kali(2, 3));
-        System.out.println(kl.kali(2, 3));
+        System.out.println(kl.kali(2, 3, 4));
+        System.out.println(kl.kali(2, 3,4, 5));
     }
     
 }

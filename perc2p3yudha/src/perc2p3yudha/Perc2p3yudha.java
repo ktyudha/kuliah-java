@@ -12,7 +12,7 @@ class fibonacci {
         for (i = 1; i <= b; i++) {
                 System.out.print(i+"\t");        
         }
-        System.out.print("\n");
+        System.out.println();
         
         for (j = 1; j <= b; j++) {
               System.out.print(j+ "\t"); 
